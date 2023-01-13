@@ -1,0 +1,43 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.top-header {
+  background-image: linear-gradient(
+    to right,
+    #f687b3,
+    #cd7acc,
+    #8464f8,
+    #4e94d5
+  );
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-header-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(252, 245, 245);
+  text-align: center;
+}
+.bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 50px;
+}
+.coin-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
